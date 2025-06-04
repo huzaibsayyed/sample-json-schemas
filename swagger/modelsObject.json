@@ -1,5 +1,5 @@
 {
-    "id": "http://wordnik.github.io/schemas/modelsObject.json#",
+    "id": "https://raw.githubusercontent.com/huzaibsayyed/sample-json-schemas/refs/heads/master/swagger/modelsObject.json#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "required": [ "id", "properties" ],
@@ -27,7 +27,7 @@
                     "not": { "$ref": "#" }
                 },
                 {
-                    "$ref": "dataTypeBase.json#"
+                    "$ref": "https://raw.githubusercontent.com/huzaibsayyed/sample-json-schemas/refs/heads/master/swagger/dataTypeBase.json#"
                 }
             ]
         }

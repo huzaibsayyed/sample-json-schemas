@@ -1,9 +1,9 @@
 {
-    "id": "http://wordnik.github.io/schemas/parameterObject.json#",
+    "id": "https://raw.githubusercontent.com/huzaibsayyed/sample-json-schemas/refs/heads/master/swagger/parameterObject.json#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "allOf": [
-        { "$ref": "dataTypeBase.json#" },
+        { "$ref": "https://raw.githubusercontent.com/huzaibsayyed/sample-json-schemas/refs/heads/master/swagger/dataTypeBase.json#" },
         {
             "required": [ "paramType", "name" ],
             "properties": {

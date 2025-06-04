@@ -1,5 +1,5 @@
 {
-    "id": "http://wordnik.github.io/schemas/apiDeclaration.json#",
+    "id": "https://raw.githubusercontent.com/huzaibsayyed/sample-json-schemas/refs/heads/master/swagger/apiDeclaration.json#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "required": [ "swaggerVersion", "basePath", "apis" ],
@@ -23,12 +23,12 @@
         "models": {
             "type": "object",
             "additionalProperties": {
-                "$ref": "modelsObject.json#"
+                "$ref": "https://raw.githubusercontent.com/huzaibsayyed/sample-json-schemas/refs/heads/master/swagger/modelsObject.json#"
             }
         },
         "produces": { "$ref": "#/definitions/mimeTypeArray" },
         "consumes": { "$ref": "#/definitions/mimeTypeArray" },
-        "authorizations": { "$ref": "authorizationObject.json#" }
+        "authorizations": { "$ref": "https://raw.githubusercontent.com/huzaibsayyed/sample-json-schemas/refs/heads/master/swagger/authorizationObject.json#" }
     },
     "additionalProperties": false,
     "definitions": {
@@ -40,7 +40,7 @@
                 "description": { "type": "string" },
                 "operations": {
                     "type": "array",
-                    "items": { "$ref": "operationObject.json#" }
+                    "items": { "$ref": "https://raw.githubusercontent.com/huzaibsayyed/sample-json-schemas/refs/heads/master/swagger/operationObject.json#" }
                 }
             },
             "additionalProperties": false

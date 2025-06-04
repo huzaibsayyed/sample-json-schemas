@@ -1,5 +1,5 @@
 {
-    "id": "http://wordnik.github.io/schemas/authorizationObject.json#",
+    "id": "https://raw.githubusercontent.com/huzaibsayyed/sample-json-schemas/refs/heads/master/swagger/authorizationObject.json#",
     "$schema": "http://json-schema.org/draft-04/schema#",
     "type": "object",
     "additionalProperties": {
@@ -41,7 +41,7 @@
                     "type": "array",
                     "items": { "$ref": "#/definitions/oauth2Scope" }
                 },
-                "grantTypes": { "$ref": "oauth2GrantType.json#" }
+                "grantTypes": { "$ref": "https://raw.githubusercontent.com/huzaibsayyed/sample-json-schemas/refs/heads/master/swagger/oauth2GrantType.json#" }
             },
             "additionalProperties": false
         },
